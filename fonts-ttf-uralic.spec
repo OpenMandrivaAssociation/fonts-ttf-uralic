@@ -1,7 +1,7 @@
 Summary: Truetype fonts for Cyrillic-based Uralic languages
 Name: fonts-ttf-uralic
 Version: 0
-Release: %mkrel 2.20040829.2
+Release: %mkrel 2.20040829.3
 License: GPLv2+
 Group: System/Fonts/True type
 URL: http://peoples.org.ru/eng_uralic.html
@@ -69,15 +69,6 @@ ln -s ../../..%_datadir/fonts/TTF/uralic \
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-if [ "$1" = "0" ]; then
-  [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
-
 
 %files
 %defattr(-,root,root,-)
