@@ -16,6 +16,7 @@ Source7: http://www.peoples.org.ru/font/SansUralic.zip
 Source8: http://www.peoples.org.ru/font/SchoolbookUralic.zip
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
+BuildRequires: fontconfig
 BuildRequires: freetype-tools
 
 %description
