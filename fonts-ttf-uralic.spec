@@ -79,3 +79,31 @@ rm -rf $RPM_BUILD_ROOT
 %verify(not mtime) %{_datadir}/fonts/TTF/uralic/fonts.dir
 %{_datadir}/fonts/TTF/uralic/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-uralic:pri=50
+
+
+%changelog
+* Tue May 17 2011 Funda Wang <fwang@mandriva.org> 0-2.20040829.5mdv2011.0
++ Revision: 675580
+- br fontconfig for fc-query used in new rpm-setup-build
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0-2.20040829.4mdv2011.0
++ Revision: 610738
+- rebuild
+
+* Wed Jan 20 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 0-2.20040829.3mdv2010.1
++ Revision: 494159
+- fc-cache is now called by an rpm filetrigger
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0-2.20040829.2mdv2010.0
++ Revision: 428853
+- rebuild
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 0-2.20040829.1mdv2009.0
++ Revision: 266815
+- rebuild early 2009.0 package (before pixel changes)
+
+* Mon May 12 2008 Pascal Terjan <pterjan@mandriva.org> 0-0.20040829.1mdv2009.0
++ Revision: 206193
+- First version of the package
+
+
