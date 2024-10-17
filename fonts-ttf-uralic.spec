@@ -4,7 +4,7 @@ Version: 0
 Release: 2.20040829.6
 License: GPLv2+
 Group: System/Fonts/True type
-URL: http://peoples.org.ru/eng_uralic.html
+URL: https://peoples.org.ru/eng_uralic.html
 Source0: http://www.peoples.org.ru/font/BookmanUralic.zip
 Source1: http://www.peoples.org.ru/font/ChanceryUralic.zip
 Source2: http://www.peoples.org.ru/font/GothicUralic.zip
